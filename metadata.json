@@ -1,0 +1,136 @@
+{
+  "project_name": "Configurator",
+  "tech_stack": {
+    "project_name": "Configurator",
+    "frontend": {
+      "framework": "React",
+      "language": "TypeScript",
+      "styling": "TailwindCSS",
+      "package_manager": "npm"
+    },
+    "backend": {
+      "framework": "Spring Boot",
+      "language": "Java",
+      "orm": "Hibernate"
+    },
+    "database": {
+      "db_type": "PostgreSQL",
+      "version": "15"
+    },
+    "features": [
+      "Authentication (JWT)",
+      "Docker support (Dockerfile + docker-compose)",
+      "CI/CD (GitHub Actions)",
+      "README with setup instructions",
+      "Environment variables (.env.example)"
+    ],
+    "architecture_type": "monolithic",
+    "service_connection_urls": [
+      "https://auth.microsoft.com"
+    ],
+    "environments": [
+      "development",
+      "staging",
+      "production"
+    ],
+    "github_repository": "configurator"
+  },
+  "quality_score": 80.8,
+  "passed": true,
+  "files_created": 93,
+  "token_usage": {
+    "total_input_tokens": 367599,
+    "total_output_tokens": 90319,
+    "total_tokens": 457918,
+    "api_calls": 13,
+    "calls": [
+      {
+        "agent": "generator",
+        "input_tokens": 8549,
+        "output_tokens": 16000,
+        "duration_seconds": 139.99
+      },
+      {
+        "agent": "reviewer",
+        "input_tokens": 23222,
+        "output_tokens": 1797,
+        "duration_seconds": 30.48
+      },
+      {
+        "agent": "security",
+        "input_tokens": 16383,
+        "output_tokens": 1777,
+        "duration_seconds": 32.93
+      },
+      {
+        "agent": "fixer",
+        "input_tokens": 5084,
+        "output_tokens": 16000,
+        "duration_seconds": 132.78
+      },
+      {
+        "agent": "security",
+        "input_tokens": 29507,
+        "output_tokens": 1960,
+        "duration_seconds": 36.42
+      },
+      {
+        "agent": "reviewer",
+        "input_tokens": 36346,
+        "output_tokens": 3472,
+        "duration_seconds": 58.89
+      },
+      {
+        "agent": "fixer",
+        "input_tokens": 13768,
+        "output_tokens": 16000,
+        "duration_seconds": 124.78
+      },
+      {
+        "agent": "security",
+        "input_tokens": 37461,
+        "output_tokens": 2072,
+        "duration_seconds": 38.3
+      },
+      {
+        "agent": "reviewer",
+        "input_tokens": 44300,
+        "output_tokens": 3874,
+        "duration_seconds": 67.39
+      },
+      {
+        "agent": "fixer",
+        "input_tokens": 21378,
+        "output_tokens": 10043,
+        "duration_seconds": 82.23
+      },
+      {
+        "agent": "evaluator",
+        "input_tokens": 45374,
+        "output_tokens": 673,
+        "duration_seconds": 17.95
+      },
+      {
+        "agent": "fixer",
+        "input_tokens": 38733,
+        "output_tokens": 16000,
+        "duration_seconds": 135.95
+      },
+      {
+        "agent": "evaluator",
+        "input_tokens": 47494,
+        "output_tokens": 651,
+        "duration_seconds": 16.34
+      }
+    ]
+  },
+  "duration_seconds": 809.48,
+  "created_at": "2026-06-03T07:25:28.737762+00:00",
+  "enhancements": {
+    "parallel_review": true,
+    "chunked_generation": false,
+    "checkpointing": true,
+    "incremental_fixing": true,
+    "validator": true
+  }
+}
